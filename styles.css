@@ -1,0 +1,12 @@
+body{
+	font: small-caps 100%/200% serif;
+	font-size: 20pt;
+	color: cyan;
+	background-image: url("https://images.cults3d.com/PHzj_hvrMMHO8qGzcBmqDzjC6ro=/516x516/https://files.cults3d.com/uploaders/15398373/illustration-file/07f777b1-3a6e-47c8-82e3-697baad222fd/kirby-2.jpg");
+	display: grid;
+    grid-template-columns: 3;
+	grid-column: 2
+}
+p{
+	grid-column: 2
+}
