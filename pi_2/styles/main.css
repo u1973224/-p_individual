@@ -3,7 +3,19 @@
 	line-height: 75px;
 }
 
+body{
+	background-color: #C3D6B0;
+}
+
+title{
+	font: small-caps 100% serif;
+	font-size: 40pt;
+	color: black;
+}
+
 .menu-object{
+	background-color: #4CAF50; 
+	font: small-caps 100% serif;
 	display:block;
 	margin-left: auto;
 	margin-right: auto;
