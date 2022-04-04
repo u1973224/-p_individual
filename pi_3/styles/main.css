@@ -1,17 +1,21 @@
-input[type=number]{
-	height: 3rem;
-    font-size: 1.3rem;
-    font-weight: bold;
-    width: 3rem;
-    text-align: center;
-}
-
 #title{
 	font-size: 26px;
 	line-height: 75px;
 }
 
+body{
+	background-color: #C3D6B0;
+}
+
+title{
+	font: small-caps 100% serif;
+	font-size: 40pt;
+	color: black;
+}
+
 .menu-object{
+	background-color: #4CAF50; 
+	font: small-caps 100% serif;
 	display:block;
 	margin-left: auto;
 	margin-right: auto;
@@ -25,6 +29,7 @@ p{
 	text-align: center;
 }
 
+
 button.menu-object:active{
 	font-size: 18px;
 	width: 275px;
@@ -37,3 +42,10 @@ button.menu-object:hover:not(:active){
 	height: 85px;
 }
 
+.image{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	padding:20 px;
+	heigth: 100 vh;
+}

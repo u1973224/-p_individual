@@ -2,6 +2,17 @@ const back = "../resources/back.png";
 const items = ["../resources/cb.png","../resources/co.png","../resources/sb.png",
 "../resources/so.png","../resources/tb.png","../resources/to.png"];
 
+var options_data = {
+	cards:2, dificulty:"hard"
+};
+
+var load = function(){
+	var json = localStorage.getItem("config") || '{"cards":2,"dificulty":"hard"}';
+	options_data = JSON.parse(json);
+};
+
+load();
+
 var game = new Vue({
 	el: "#game_id",
 	data: {
@@ -23,6 +34,12 @@ var game = new Vue({
 		}
 	},
 	methods: {
+		mirarcartes: function(){
+			if (dificulty = "hard"){
+				items.texture == front;
+			}
+		},
+
 		clickCard: function(i){
 			if (!this.current_card[i].done && this.current_card[i].texture === back)
 				Vue.set(this.current_card, i, {done: false, texture: this.items[i]});
