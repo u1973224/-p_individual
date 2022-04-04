@@ -19,7 +19,7 @@ var game = new Vue({
 		username:'',
 		current_card: [],
 		items: [],
-		num_cards: options_data.num_cards,
+		num_cards: options_data.cards,
 		bad_clicks: 0
 	},
 	created: function(){
